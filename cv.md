@@ -18,3 +18,33 @@
 Hi! My name is Max. I'm 18 years old. My main advantages are perseverance and positivity. I am interested in improving my skills and working hard on new projects. I really love programming and I hope to find a place for myself in this profession.
 
 ---
+
+### Skills
+
+- HTML
+- CSS/SASS
+- JavaScript
+- ReactJS
+- Node.js (Basic)
+- SQL (Basic)
+- Git
+- Photoshop
+
+---
+
+### Code example
+_Closures and scopes_ (from [Codewars](https://www.codewars.com/kata/closures-and-scopes))
+
+```javascript
+function createFunctions(n) {
+  let callbacks = [];
+  for (let i = 0; i < n; i++) {
+    callbacks.push(function() {
+      return i;
+    });
+  }
+  return callbacks;
+}
+```
+
+---
