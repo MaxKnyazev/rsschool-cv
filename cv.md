@@ -12,3 +12,9 @@
 - __GitHub__ : [MaxKnyazev](https://github.com/MaxKnyazev)
 
 ---
+
+### About me
+
+Hi! My name is Max. I'm 18 years old. My main advantages are perseverance and positivity. I am interested in improving my skills and working hard on new projects. I really love programming and I hope to find a place for myself in this profession.
+
+---
