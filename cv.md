@@ -48,3 +48,24 @@ function createFunctions(n) {
 ```
 
 ---
+
+### My projects
+
+- [Retro Minesweeper](https://maxknyazev.github.io/react-retro-minesweeper/)
+- [Accent (ReactJS)](https://maxknyazev.github.io/accent-reactjs/)
+- [HSL Color](https://hslcolor.github.io/)
+
+---
+
+### Education
+
+- [Udemy](https://www.udemy.com/)
+- [HTML Academy](https://htmlacademy.ru/)
+- [Codewars](https://www.codewars.com/dashboard)
+- [MDN](https://developer.mozilla.org/en-US/)
+- [LearnJS](https://learn.javascript.ru/)
+
+---
+
+### English 
+* Intermediate - Upper Intermediate (B1 - B2)
