@@ -6,6 +6,7 @@
 
 html {
   scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 * {
@@ -31,16 +32,11 @@ html {
     display: flex;
     justify-content: center;
     padding-top: 10vh;
-    /* align-items: center; */
   }
 
     .header__logo {
       color: var(--secondary-color);
       margin-right: 5vw;
-
-      /* display: flex;
-      justify-content: center;
-      align-items: center; */
     }
 
     .header__h1 {
@@ -57,7 +53,6 @@ html {
     .header__ul {
       margin-left: 3vw;
       color: var(--secondary-color);
-      /* list-style-type: disc; */
     }
 
       .header__li {
@@ -74,3 +69,60 @@ html {
         .header__link:hover {
           color: var(--white-color);
         }
+
+.main {
+  background-color: var(--secondary-color);
+  display: flex;
+  justify-content: center;
+}
+
+  .main__wrapper {
+    width: 50vw;
+  }
+
+    .contacts {
+      margin-top: 10vh;
+      color: #2c2a23;
+    }
+
+      .contacts__title {
+        font-size: 35px;
+        text-align: center;
+        margin-bottom: 2vh;
+      }
+
+      .contacts__ul {
+        font-size: 20px;
+        list-style: none;
+      }
+
+        .contacts__li {
+          margin-bottom: 1vh;
+        }
+          
+          .contacts__li span {
+            font-weight: 200;
+          }
+      
+        .contacts__link {
+          text-decoration: none;
+          color:#435761;
+          transition: 200ms all;
+        }
+          .contacts__link:hover {
+            color: #618388
+          }
+  
+.footer {
+  height: 12vh;
+  width: 100vw;
+  background-color: #2c2a23;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  .footer__copyright {
+    color: #5c594c
+  }
