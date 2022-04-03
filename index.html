@@ -30,10 +30,10 @@
 
   <main class="main">
     <div class="main__wrapper">
-      <section id="contacts" class="contacts">
-        <h2 class="contacts__title">Contacts</h2>
+      <section id="contacts" class="contacts main__section">
+        <h2 class="contacts__title main__title">Contacts</h2>
 
-        <ul class="contacts__ul">
+        <ul class="contacts__ul main__text">
           <li class="contacts__li">Phone: <span>+7(920)451-69-95</span></li>
           <li class="contacts__li">Email: <span>esomat7979@gmail.com</span></li>
           <li class="contacts__li">Discord: <span>MaxNotDead#1376</span></li>
@@ -42,7 +42,46 @@
         </ul>
       </section>
 
-      
+      <section id="about" class="about main__section">
+        <h2 class="about__title main__title">About me</h2>
+
+        <p class="about__text main__text">Hi! My name is Max. I'm 18 years old. My main advantages are perseverance and positivity. I am interested in improving my skills and working hard on new projects. I really love programming and I hope to find a place for myself in this profession.</p>
+      </section>
+
+      <section id="skills" class="skills main__section">
+        <h2 class="skills__title main__title">Skills</h2>
+
+        <ul class="skills__ul main__text">
+          <li class="skills__li">HTML</li>
+          <li class="skills__li">CSS/SASS</li>
+          <li class="skills__li">JavaScript</li>
+          <li class="skills__li">ReactJS</li>
+          <li class="skills__li">Node.js (Basic)</li>
+          <li class="skills__li">SQL (Basic)</li>
+          <li class="skills__li">Git</li>
+          <li class="skills__li">Photoshop</li>
+        </ul>
+      </section>
+
+      <section class="code main__section" id="code">
+        <h2 class="code__title main__title">Code example</h2>
+
+        <p class="main__text code__text">
+          Closures and scopes <span>(from <a class="code__link" href="https://www.codewars.com/kata/closures-and-scopes">Codewars</a>)</span>
+
+          <pre class="main__text code__pre">
+function createFunctions(n) {
+  let callbacks = [];
+  for (let i = 0; i < n; i++) {
+    callbacks.push(function() {
+      return i;
+    });
+  }
+  return callbacks;
+}
+          </pre>
+        </p>
+      </section>
     </div>
   </main>
 
