@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>MaxKnyazev CV</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header__wrapper">
+      <div class="header__logo">
+        <img src="img/download20220405170743.png" alt="logo">
+      </div>
+
+      <nav class="header__nav">
+        <h1 class="header__h1">Maxim Knyazev <i> - Frontend student</i></h1>
+        <ul class="header__ul">
+          <li class="header__li"><a class="header__link" href="#contacts">Contacts</a></li>
+          <li class="header__li"><a class="header__link" href="#about">About</a></li>
+          <li class="header__li"><a class="header__link" href="#skills">Skills</a></li>
+          <li class="header__li"><a class="header__link" href="#code">Code</a></li>
+          <li class="header__li"><a class="header__link" href="#projects">My projects</a></li>
+          <li class="header__li"><a class="header__link" href="#education">Education</a></li>
+          <li class="header__li"><a class="header__link" href="#english">English</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="main__wrapper">
+      <section id="contacts" class="contacts main__section">
+        <h2 class="contacts__title main__title">Contacts</h2>
+
+        <ul class="contacts__ul main__text">
+          <li class="contacts__li">Phone: <span>+7(920)451-69-95</span></li>
+          <li class="contacts__li">Email: <span>esomat7979@gmail.com</span></li>
+          <li class="contacts__li">Discord: <span>MaxNotDead#1376</span></li>
+          <li class="contacts__li">VK: <a class="contacts__link" href="https://vk.com/maxkpacific">Maxim Knyazev</a></li>
+          <li class="contacts__li">GitHub: <a class="contacts__link" href="https://github.com/MaxKnyazev">MaxKnyazev</a></li>
+        </ul>
+      </section>
+
+      <section id="about" class="about main__section">
+        <h2 class="about__title main__title">About me</h2>
+
+        <p class="about__text main__text">Hi! My name is Max. I'm 18 years old. My main advantages are perseverance and positivity. I am interested in improving my skills and working hard on new projects. I really love programming and I hope to find a place for myself in this profession.</p>
+      </section>
+
+      <section id="skills" class="skills main__section">
+        <h2 class="skills__title main__title">Skills</h2>
+
+        <ul class="skills__ul main__text">
+          <li class="skills__li">HTML</li>
+          <li class="skills__li">CSS/SASS</li>
+          <li class="skills__li">JavaScript</li>
+          <li class="skills__li">ReactJS</li>
+          <li class="skills__li">Node.js (Basic)</li>
+          <li class="skills__li">SQL (Basic)</li>
+          <li class="skills__li">Git</li>
+          <li class="skills__li">Photoshop</li>
+        </ul>
+      </section>
+
+      <section class="code main__section" id="code">
+        <h2 class="code__title main__title">Code example</h2>
+
+        <p class="main__text code__text">
+          Closures and scopes <span>(from <a class="code__link" href="https://www.codewars.com/kata/closures-and-scopes">Codewars</a>)</span>
+        </p>
+
+        <pre class="main__text code__pre">
+function createFunctions(n) {
+  let callbacks = [];
+  for (let i = 0; i < n; i++) {
+    callbacks.push(function() {
+      return i;
+    });
+  }
+  return callbacks;
+}
+        </pre>
+      </section>
+
+      <section id="projects" class="projects main__section">
+        <h2 class="main__title projects__title">My projects</h2>
+
+        <ul class="projects__ul main__text">
+          <li class="projects__li"><a class="projects__link" href="https://maxknyazev.github.io/react-retro-minesweeper/">Retro Minesweeper</a></li>
+          <li class="projects__li"><a class="projects__link" href="https://maxknyazev.github.io/accent-reactjs/">Accent (ReactJS)</a></li>
+          <li class="projects__li"><a class="projects__link" href="https://hslcolor.github.io/">HSL Color</a></li>
+        </ul>
+      </section>
+
+      <section id="education" class="education main__section">
+        <h2 class="main__title">Education</h2>
+
+        <ul class="education__ul main__text">
+          <li class="education__li"><a href="https://www.udemy.com/" class="education__link">Udemy</a></li>
+          <li class="education__li"><a href="https://htmlacademy.ru/" class="education__link">HTML Academy</a></li>
+          <li class="education__li"><a href="https://www.codewars.com/dashboard" class="education__link">Codewars</a></li>
+          <li class="education__li"><a href="https://developer.mozilla.org/en-US/" class="education__link">MDN</a></li>
+          <li class="education__li"><a href="https://learn.javascript.ru/" class="education__link">LearnJS</a></li>
+        </ul>
+      </section>
+
+      <section id="english" class="english main__section">
+        <h2 class="main__title">English</h2>
+        <p class="english__text main__text">Intermediate - Upper Intermediate <span>(B1 - B2)</span></p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__wrapper">
+      <span class="footer__copyright"><i>Design by Maxim Knyazev 2022</i></span>
+    </div>
+  </footer>
+</body>
+</html>
