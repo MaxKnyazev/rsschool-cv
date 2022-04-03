@@ -140,6 +140,32 @@ html {
       .code__pre {
         margin-top: 5vh;
       }
+
+      .projects__ul {
+        list-style: none;
+      }
+
+        .projects__link {
+          text-decoration: none;
+          color:#435761;
+          transition: 200ms all;
+        }
+          .projects__link:hover {
+            color: #618388
+          }
+
+      .education__ul {
+        list-style: none;
+      }
+
+        .education__link {
+          text-decoration: none;
+          color:#435761;
+          transition: 200ms all;
+        }
+          .education__link:hover {
+            color: #618388
+          }
   
 .footer {
   height: 12vh;
